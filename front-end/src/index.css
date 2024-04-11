@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  gap: 20px;
+}
+
+.buttons {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.checkbtn {
+  background-color: #39e600;
+  color: #ffffff;
+}
+
+.resetbtn {
+  background-color: #e6e600;
+  color: #000000;
+}

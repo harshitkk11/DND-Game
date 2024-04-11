@@ -1,0 +1,43 @@
+.card,
+.subzone-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: #ffffff;
+  cursor: grab;
+}
+
+.card {
+  width: 150px;
+  height: 180px;
+}
+
+.card img,
+.subzone-card img {
+  width: 60%;
+  height: 70%;
+  /* border: 1px solid; */
+}
+.card span,
+.subzone-card span {
+  font-size: 1rem;
+  /* border: 1px solid; */
+}
+
+.subzone-card {
+  width: 120px;
+  height: 150px;
+}
+
+.subzone-card.green {
+  box-shadow: rgba(0, 204, 0, 0.3) 0px 0px 0px 3px;
+}
+
+.subzone-card.red {
+  box-shadow: rgba(255, 0, 0, 0.3) 0px 0px 0px 3px;
+}
