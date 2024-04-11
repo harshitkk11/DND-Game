@@ -4,6 +4,8 @@ import CardsZone from "./components/CardsZone/CardsZone";
 import { createContext, useState } from "react";
 import CardsData from "./utils/CardsData";
 import { Result } from "./utils/Result";
+import { MdCheck } from "react-icons/md";
+import { GrPowerReset } from "react-icons/gr";
 
 // CreateContext Hooks
 export const CardsDataContext = createContext({});
@@ -67,10 +69,10 @@ function App() {
           </div>
           <div className="buttons">
             <button className="checkbtn" onClick={(e) => handleCheck(e)}>
-              Check
+              <MdCheck /> Check
             </button>
             <button className="resetbtn" onClick={(e) => handleReset(e)}>
-              Reset
+              <GrPowerReset /> Reset
             </button>
           </div>
         </ResultContext.Provider>
